@@ -5,12 +5,12 @@ import PackageDescription
 let package = Package(
     name: "SSZipArchive",
     products: [
-        .library(name: "SSZipArchive", targets: ["SSZipArchive"]),
+        .library(name: "ZipArchive-iOS", targets: ["ZipArchive-iOS"]),
     ],
 
     targets: [
         .target(
-            name: "SSZipArchive",
+            name: "ZipArchive-iOS",
             dependencies: [],
             path: "SSZipArchive"
             )
